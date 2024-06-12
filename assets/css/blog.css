@@ -2,7 +2,9 @@ body {
     display: block;
     margin: 0px;
   }
-  
+  header {
+    border-bottom: 2px solid black;
+  }
   p {
     font-size: 20px;
   }
@@ -25,18 +27,18 @@ body {
   }
   
   .footer {
+    text-align: center;
     width: 100%;
     position: absolute;
     padding-bottom: 100px;
     bottom: 0px;
   }
   
-  .toggle {
-    border-style: outset;
-    width: 400px;
-    background-color: rgba(76, 175, 80, 0.15)
+  button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
   }
-  
   /* Dark Mode */
   .dark {
     background-color:black;
@@ -91,7 +93,6 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #111;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -103,14 +104,11 @@ body {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: lemonchiffon;
     -webkit-transition: .4s;
     transition: .4s;
   }
   
-  input:checked + .slider {
-    background-color: rgb(29, 128, 210);
-  }
   
   input:focus + .slider {
     box-shadow: 0 0 1px rgb(29, 128, 210);
@@ -131,12 +129,17 @@ body {
     border-radius: 50%;
   }
   
-  .row {
-    margin: 20px;
-    display: flex;
-  }
-  .col {
-    margin: 20px;
+  
+  .card {
+    margin: 0 0 20px 0;
+    border-bottom: 5px solid black;
   }
   
   
+  .card-body {
+    padding: 2.5%;
+    margin: 10px;
+  }
+  section#blog-anchor {
+    margin-left: 25px;
+}
