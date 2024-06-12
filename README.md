@@ -2,21 +2,15 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This application serves to host and store blog posts. The posts stay on the page even when refreshed so the user can come back and view them later.
 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+To use this website, fill out the form on the homepage and click submit. After clicking submit you will be taken to a blog page wher you can toggle light and dark and see a list of past blogs.
 
 
     ![Deployed application screenshot](assets/images/hw4-personal-blog-screenshot.png)
   
-Deployed Application Link: 
+Deployed Application Link: https://kaitlynmooney.github.io/hw4-personal-blog/
+

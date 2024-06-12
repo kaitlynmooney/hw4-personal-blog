@@ -2,6 +2,7 @@ const themeSwitcher = document.querySelector('#theme-switcher');
 const container = document.querySelector('.container');
 let mode = 'light';
 const anchorEl = document.querySelector('#blog-anchor');
+const backbtn = document.querySelector('#submit');
 
 themeSwitcher.addEventListener('click', function () {
 
@@ -15,6 +16,7 @@ themeSwitcher.addEventListener('click', function () {
     container.setAttribute('class', 'light');
   }
 });
+backbtn.addEventListener('click', window.location.replace('index.html') )
 function blogFormStorage() {
 
   const savedBlogs = JSON.parse(localStorage.getItem('blogs'));
